@@ -148,29 +148,36 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
         border-radius: 0.75rem;
         font-weight: 600;
 
+        color: rgba(255, 255, 255, 0.99); //추
+
         &:hover {
           background-color: var(--sidebar-hover-bg);
+          color: rgba(255, 255, 255, 1); //추가
         }
 
         i {
           font-size: 95%;
           opacity: 0.8;
           margin-right: 1.5rem;
+          color: rgba(255, 255, 255, 0.95); // 아이콘 색상 추가
         }
 
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
+          color: rgba(255, 255, 255, 0.95); // 텍스트 span도 white로
         }
       }
 
       &.active {
         .nav-link {
-          color: var(--sidebar-active-color);
+          color: rgba(255, 255, 255, 1); // white
+          /* color: var(--sidebar-active-color); */
           background-color: var(--sidebar-hover-bg);
 
           span {
             opacity: 1;
+            color: rgba(255, 255, 255, 1); // 추
           }
         }
       }
@@ -198,7 +205,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
-      color: var(--sidebar-btn-color);
+      /* color: var(--sidebar-btn-color); */
+      color: rgba(255, 255, 255, 0.95);
       background-color: var(--sidebar-btn-bg);
       text-align: center;
       display: flex;
