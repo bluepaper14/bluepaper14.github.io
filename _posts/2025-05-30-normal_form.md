@@ -123,7 +123,7 @@ StudentID가 StudentName을 결정짓지 못하고 CourseID가 CourseName을 결
 
 --- 
 
-## 3차 정규형
+### 3차 정규형
 
 3차 정규형은 기존 2NF를 만족하고 <u> 키에 속사지 않은 모든 필드가 기본키에 이행 종속 되지 않아야한다</u>
 
