@@ -3,7 +3,7 @@ title: 정규화
 author: kongjihyun
 date: 2025-05-29 00:00:00 +0800
 categories: [데이터베이스]
-tags: [정규화]
+tags: [정규화, 함수적 종속, 정규형]
 ---
 
 ### 데이베이스 설계
