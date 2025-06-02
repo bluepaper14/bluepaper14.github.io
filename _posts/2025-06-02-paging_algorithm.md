@@ -1,7 +1,7 @@
 ---
 title: 페이지 교체 알고리즘
 author: kongjihyun
-date: 2025-05-14 00:00:00 +0800
+date: 2025-06-02 00:00:00 +0800
 categories: [운영체제]
 tags: [페이지 교체]
 ---
