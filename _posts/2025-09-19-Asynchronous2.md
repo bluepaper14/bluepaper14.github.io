@@ -104,6 +104,33 @@ promise
 .finally(() => console.log('end'))
     
 ```
+Promise 객체 생성
+→ 첫 번째 파일(readme1.txt)을 읽는 비동기 작업 준비
+
+파일 읽기 시도
+
+성공 시 → resolve(data1) 호출
+
+실패 시 → reject(err) 호출
+
+resolve 성공 시 → 첫 번째 .then() 실행
+→ data1을 받아서 문자열로 출력
+
+두 번째 파일 읽기 시작
+→ 새로운 Promise를 리턴
+
+두 번째 .then() 실행
+→ data2 출력 후 세 번째 파일 읽기 시작
+
+세 번째 .then() 실행
+→ data3 출력
+
+중간에 에러 발생하면 → .catch() 실행
+→ 에러 메시지 출력
+
+마지막으로 .finally() 실행
+→ "end" 출력
+
 첫번째 Promise의 객체가 생성되고 readme1.txt를 읽기 시작한다. 이후 
 ```
 promise
